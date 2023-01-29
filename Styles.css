@@ -33,6 +33,7 @@ h1 {
 h2 {
     margin: 0px;
     font-weight: 300;
+    margin-top: 5vh;
 }
 
 h3 {
@@ -41,10 +42,6 @@ h3 {
 
 .Title-section {
     text-align: center;
-    margin-top: 5vh;
-}
-
-.Title-section h2 {
     margin-top: 5vh;
 }
 
