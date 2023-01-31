@@ -2,9 +2,8 @@
 
 body {
     /*background-color: rgb(25,25,25);*/
-    background-image: url("Assest/dust_texture.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("assest/dust_texture.svg");
+    background-repeat: repeat;
     color: rgb(255,255,255);
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
