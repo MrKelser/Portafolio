@@ -125,3 +125,24 @@ footer ul {
     font-family: 'Rubik', sans-serif;
     padding: 20px 0;
 }
+
+.form-submit textarea {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    border: none;
+    padding: 0;
+    resize: none;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(79,177,79);
+    color: rgb(255,255,255);
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
