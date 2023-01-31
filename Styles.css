@@ -4,7 +4,7 @@ body {
     /*background-color: rgb(25,25,25);*/
     background-image: url("Assest/dust_texture.svg");
     background-repeat: no-repeat;
-    /* background-size: 100vh, 100vw; */
+    background-size: cover;
     color: rgb(255,255,255);
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
