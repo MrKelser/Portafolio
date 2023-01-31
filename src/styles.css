@@ -101,3 +101,12 @@ footer ul {
     font-weight: 500;
     margin-top: 5vh;
 }
+
+/* contact page */
+
+.form-submit {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
