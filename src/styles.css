@@ -123,7 +123,7 @@ footer ul {
     font-size: 20px;
     padding: 5px;
     font-family: 'Rubik', sans-serif;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 .form-submit textarea {
@@ -134,7 +134,7 @@ footer ul {
     resize: none;
     margin-top: 5px;
     font-size: 20px;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 form button {
