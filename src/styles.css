@@ -137,7 +137,7 @@ footer ul {
     padding: 20px 0px;
 }
 
-form button {
+.submit-button {
     width: 100%;
     background-color: rgb(79,177,79);
     color: rgb(255,255,255);
