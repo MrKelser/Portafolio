@@ -118,10 +118,9 @@ footer ul {
 }
 
 .form-control {
-    width: 50%;
-    border: none;
+    width: 100%;
     font-size: 20px;
-    padding: 5px;
+    margin: 1px 0px 1px 0px;
     font-family: 'Rubik', sans-serif;
     padding: 20px 0px;
 }
