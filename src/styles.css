@@ -112,12 +112,14 @@ footer ul {
     width: 100%;
 }
 
-.form-submit .form-row {
+/* .form-submit .form-row {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .form-control {
+    display: flex;
+    justify-content: space-between;
     width: 50%;
     border: none;
     font-size: 20px;
