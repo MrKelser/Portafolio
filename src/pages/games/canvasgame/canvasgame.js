@@ -1,8 +1,8 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-canvas.height = screen.innerHeight
-canvas.width = screen.innerWidth
+// canvas.height = innerHeight
+// canvas.width = innerWidth
 
 class Player {
     constructor(x,y) {
