@@ -6,12 +6,13 @@ canvas.width = innerWidth
 
 class Player {
     constructor(x,y) {
-        this.x = x
-        this.y = y
 
         const pimg = new Image()
         pimg.src = 'img/Nave.png'
         this.image = pimg
+
+        this.x = x - this.image.width/2
+        this.y = y - this.image.height/2
     }
 
     draw() {
@@ -19,7 +20,7 @@ class Player {
     }
 }
 
-const player = new Player(canvas.width/2, canvas.height/2)
+const player = new Player(canvas.width/2 , canvas.height/2)
 player.draw()
 
 console.log(player);
