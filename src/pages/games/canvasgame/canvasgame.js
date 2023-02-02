@@ -23,3 +23,10 @@ const player = new Player(100, 100)
 player.draw()
 
 console.log(player);
+
+function animate() {
+    requestAnimationFrame(animate)
+    player.draw()
+}
+
+animate()
