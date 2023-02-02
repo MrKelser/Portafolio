@@ -19,7 +19,7 @@ class Player {
     }
 }
 
-const player = new Player(100, 100)
+const player = new Player(canvas.width/2, canvas.height/2)
 player.draw()
 
 console.log(player);
