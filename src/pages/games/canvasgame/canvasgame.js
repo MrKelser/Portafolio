@@ -5,14 +5,21 @@ canvas.height = innerHeight
 canvas.width = innerWidth
 
 class Player {
-    constructor(x,y,radio,color) {
+    constructor(x,y) {
         this.x = x
         this.y = y
-        this.radio = radio
-        this.color = color
+
+        const pimg = new Image()
+        pimg.src = 'img/Nave.png'
+        this.image = pimg
+    }
+
+    draw() {
+        ctx.drawImage(this.image, this.x, this.y)
     }
 }
 
-const player = new Player(100, 100, 100, 'blue')
+const player = new Player(100, 100)
+player.draw()
 
 console.log(player);
