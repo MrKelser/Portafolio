@@ -3,34 +3,44 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="/Portafolio/src/styles.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <ul>
-            <a href="/Portafolio/index.html"><li>Home</li></a>
-            <a href="Work.html"><li>Work</li></a>
-            <a href="https://github.com/MrKelser"><li>GitHub</li></a>
-            <!-- <a href="Contact.html"><li>Contact</li></a> -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="https://github.com/MrKelser">GitHub</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
 
-    <section>
-        <div class="form-submit">
-            <h2>Submit</h2>
-            <form target="_blank" action="https://formsubmit.co/el/hevigo" method="POST">
-                <!-- <input type="hidden" name="_next" value="https://www.google.com/?hl=es"> -->
-                <div clas="form-row">
-                    <input name="name" class="form-control" placeholder="Full Name" required>
-                    <input name="email" class="form-control" placeholder="Email" required>
-                </div>
-                <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
-                <button class="submit-button" type="submit">Submit Form</button>
-            </form>
-        </div>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="mailto:proyectoskelser@gmail.com" method="post" enctype="text/plain">
+            <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-row">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Send">
+            </div>
+        </form>
     </section>
+
+    <footer>
+        <ul>
+        </ul>
+    </footer>
 
 </body>
 </html>
