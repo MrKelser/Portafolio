@@ -2,7 +2,9 @@
 body {
     /*background-color: rgb(25,25,25);*/
     background-image: url("assest/dust_texture.svg");
-    background-repeat: repeat;
+    /*background-size: cover;*/
+    background-repeat: repeat-x repeat-y;
+    background-repeat: 4 2;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     color: rgb(255,255,255);
@@ -160,4 +162,12 @@ footer ul {
         width: 100%;
         margin-top: 5px;
     }
+}
+
+        /* canvasgame */
+
+#cgame {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
