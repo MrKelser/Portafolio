@@ -32,9 +32,9 @@ h2 {
 }
 
 .title {
-    font-size: 700px;
+    font-weight: 700;
 }
 
 .subtitle {
-    font-size: 300px;
+    font-weight: 300;
 }
