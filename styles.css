@@ -4,7 +4,6 @@ body {
     background-color: #101718;
     color: floralwhite;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
 }
 
 header {
@@ -25,4 +24,17 @@ li {
 h1 {
     display: flex;
     justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 700px;
+}
+
+.subtitle {
+    font-size: 300px;
 }
